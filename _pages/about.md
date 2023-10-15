@@ -1,14 +1,15 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Rui-Jie Zhu"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+Biography
+======
+Hi! This is Rui-Jie (Ridger). I am currently a Ph.D. student in Electrical and Computer Engineering at UC Santa Cruz, having started in the Fall of 2023, with Jason Eshraghian as my supervisor. I obtained my Bachelor’s Degree from the University of Electronic Science and Technology of China not long ago. Throughout my undergraduate studies, I was deeply involved in several open-source neuromorphic projects, including notable ones like [snnTorch](https://github.com/jeshraghian/snntorch) and [SpikingJelly](https://github.com/fangwei123456/spikingjelly). I am proud to have led the development of [SpikeGPT](https://github.com/ridgerchu/SpikeGPT), a pioneering spiking neural network generative language model. My interests extend beyond neuromorphic projects; I am deeply fascinated by large language models and had the privilege to be one of the authors of the [RWKV](https://github.com/BlinkDL/RWKV-LM) large language model. In 2020, I took on the role of Chair for the Students Open-Source Conference ([sosconf](https://sosconf.org)), a significant event that saw participation from over 3,000 attendees online. My main research interest lies in pushing the boundaries of large-scale spiking neural networks. Beyond the world of academia, I have a passion for filmmaking and hiking.
 
 A data-driven personal website
 ======
