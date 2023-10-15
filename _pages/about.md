@@ -16,7 +16,7 @@ Recent News
 ------
 - Oct. 2023 - **RWKV: Reinventing RNNs for the Transformer Era** accepted by 2023 EMNLP Findings! [[paper]](https://arxiv.org/abs/2305.13048)[[code]](https://github.com/BlinkDL/RWKV-LM)
 - Aug. 2023 - **Towards popularity prediction of information cascades via degree distribution and deep neural networks** accepted by Journal of Informetrics! [[paper]](https://www.sciencedirect.com/science/article/pii/S175115772300038X)[[code]](https://github.com/tmacmilan/CasDENN)
-- May. 2023 - Invited to give a talk in the Intel Neuromorphic Research Community! [[link]](https://intel-ncl.atlassian.net/wiki/spaces/INRC/blog/2023/05/24/1933738007/INRC+Forum+May+30th+Jason+Eshraghian+Ruijie+Zhu)
+- May. 2023 - Invited to give a talk at the Intel Neuromorphic Research Community! [[link]](https://intel-ncl.atlassian.net/wiki/spaces/INRC/blog/2023/05/24/1933738007/INRC+Forum+May+30th+Jason+Eshraghian+Ruijie+Zhu)
 - Apr. 2023 - **When Spiking Neural Networks Meet Temporal Attention Image Decoding and Adaptive Spiking Neuron** accepted by ICLR 2023 tiny paper track! [[paper]](https://openreview.net/forum?id=MuOFB0LQKcy)[[code]](https://github.com/bollossom/ICLR_TINY_SNN)
 - Apr. 2023 - **Uni-Match: A Semantic Unified Model for Query-Product Retrieval** accepted by ICLR 2023 tiny paper track! [[paper]](https://openreview.net/forum?id=91Bcj6sgcxt)
 - Mar. 2023 - **VTSNN: a virtual temporal spiking neural network** accepted by Frontiers in Neuroscience! : [[paper]](https://www.frontiersin.org/journals/neuroscience)[[code]](https://github.com/bollossom/VTSNN)
