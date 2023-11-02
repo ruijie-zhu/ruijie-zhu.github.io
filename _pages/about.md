@@ -34,7 +34,9 @@ IEEE Student Member
 
 **Reviewer**
 
-[EMNLP 2023](https://2023.emnlp.org/)
+[Conference on Empirical Methods in Natural Language Processing (EMNLP)](https://emnlp.org/)
+
+[IEEE Transactions on Neural Networks and Learning Systems (TNNLS)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385)
 
 [IEEE Journal on Emerging and Selected Topics in Circuits and Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5503868)
 
