@@ -14,6 +14,7 @@ Hi! This is Rui-Jie (Ridger). I am currently a Ph.D. student in Electrical and C
 
 Recent News
 ------
+- Dec. 2023 - **Gated Attention Coding for Training High-performance and Efficient Spiking Neural Networks** accepted by 2024 AAAI [[paper]](https://arxiv.org/abs/2308.06582)
 - Oct. 2023 - **RWKV: Reinventing RNNs for the Transformer Era** accepted by 2023 EMNLP Findings! [[paper]](https://arxiv.org/abs/2305.13048)[[code]](https://github.com/BlinkDL/RWKV-LM)
 - Aug. 2023 - **Towards popularity prediction of information cascades via degree distribution and deep neural networks** accepted by Journal of Informetrics! [[paper]](https://www.sciencedirect.com/science/article/pii/S175115772300038X)[[code]](https://github.com/tmacmilan/CasDENN)
 - May. 2023 - Invited to give a talk at the Intel Neuromorphic Research Community! [[link]](https://intel-ncl.atlassian.net/wiki/spaces/INRC/blog/2023/05/24/1933738007/INRC+Forum+May+30th+Jason+Eshraghian+Ruijie+Zhu)
