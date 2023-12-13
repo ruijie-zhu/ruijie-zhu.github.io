@@ -14,7 +14,7 @@ Hi! This is Rui-Jie (Ridger). I am currently a Ph.D. student in Electrical and C
 
 Recent News
 ------
-- Dec. 2023 - **Recent Advances in Scalable Energy-Efficient and Trustworthy Spiking Neural networks: from Algorithms to Technology** accepted by 2024 International Conference on Acoustics, Speech and Signal Processing (ICASSP) : [[paper]](https://arxiv.org/abs/2312.01213)
+- Dec. 2023 - **Recent Advances in Scalable Energy-Efficient and Trustworthy Spiking Neural networks: from Algorithms to Technology** accepted by 2024 International Conference on Acoustics, Speech and Signal Processing (ICASSP)! [[paper]](https://arxiv.org/abs/2312.01213)
 - Dec. 2023 - **Gated Attention Coding for Training High-performance and Efficient Spiking Neural Networks** accepted by the 38th Annual AAAI Conference on Artificial Intelligence! [[paper]](https://arxiv.org/abs/2308.06582)
 - Oct. 2023 - **RWKV: Reinventing RNNs for the Transformer Era** accepted by 2023 EMNLP Findings! [[paper]](https://arxiv.org/abs/2305.13048)[[code]](https://github.com/BlinkDL/RWKV-LM)
 - Aug. 2023 - **Towards popularity prediction of information cascades via degree distribution and deep neural networks** accepted by Journal of Informetrics! [[paper]](https://www.sciencedirect.com/science/article/pii/S175115772300038X)[[code]](https://github.com/tmacmilan/CasDENN)
