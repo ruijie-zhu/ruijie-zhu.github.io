@@ -51,6 +51,8 @@ IEEE Graduate Student Member
 
 [IEEE International Symposium on Circuits and Systems](https://ieeexplore.ieee.org/xpl/conhome/1000089/all-proceedings)
 
+[APL Machine Learning](https://pubs.aip.org/aip/aml)
+
 
 
 
