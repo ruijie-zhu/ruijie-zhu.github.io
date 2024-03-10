@@ -39,6 +39,8 @@ IEEE Graduate Student Member
 
 [2023 Conference on Empirical Methods in Natural Language Processing (EMNLP)](https://2023.emnlp.org/)
 
+[2022/2024 European Conference on Computer Vision (ECCV)](https://eccv.ecva.net)
+
 [IEEE Transactions on Neural Networks and Learning Systems (TNNLS)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385)
 
 [Neural Networks (NN)](https://www.sciencedirect.com/journal/neural-networks)
