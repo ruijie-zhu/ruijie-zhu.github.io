@@ -14,6 +14,9 @@ Hi! This is Rui-Jie (Ridger). I am currently a Ph.D. student in Electrical and C
 
 Recent News
 ------
+
+- Apr. 2024 - **Optically Tunable Electrical Oscillations in Oxide‐Based Memristors for Neuromorphic Computing** accepted by Advanced Materials! [[paper]](https://onlinelibrary.wiley.com/doi/full/10.1002/adma.202400904)[[code]](https://github.com/RisingEntropy/PFA)
+- Apr. 2024 - **Tensor Decomposition Based Attention Module for Spiking Neural Networks** accepted by Knowleage-based Systems! [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0950705124004143)
 - Dec. 2023 - **Recent Advances in Scalable Energy-Efficient and Trustworthy Spiking Neural networks: from Algorithms to Technology** accepted by 2024 International Conference on Acoustics, Speech and Signal Processing (ICASSP)! [[paper]](https://arxiv.org/abs/2312.01213)
 - Dec. 2023 - **Gated Attention Coding for Training High-performance and Efficient Spiking Neural Networks** accepted by the 38th Annual AAAI Conference on Artificial Intelligence! [[paper]](https://arxiv.org/abs/2308.06582)
 - Oct. 2023 - **RWKV: Reinventing RNNs for the Transformer Era** accepted by 2023 EMNLP Findings! [[paper]](https://arxiv.org/abs/2305.13048)[[code]](https://github.com/BlinkDL/RWKV-LM)
@@ -25,8 +28,9 @@ Recent News
 
 Experiences
 ------
-- Sept.2019 - July.2023, Undergradute, University of Electronic Science and Technology of China
-- July.2023 - Now, Ph.D. student, UC Santa Cruz
+- July. 2023 - Now, Ph.D. student, UC Santa Cruz
+- Sept. 2019 - July. 2023, Undergradute, University of Electronic Science and Technology of China
+
 
 Professional Services
 ------
@@ -36,10 +40,11 @@ IEEE Graduate Student Member
 
 **Reviewer**
 
-
-[2023 Conference on Empirical Methods in Natural Language Processing (EMNLP)](https://2023.emnlp.org/)
+[2024 Conference on Neural Information Processing Systems (NeurIPS)](https://neurips.cc)
 
 [2022/2024 European Conference on Computer Vision (ECCV)](https://eccv.ecva.net)
+
+[2023 Conference on Empirical Methods in Natural Language Processing (EMNLP)](https://2023.emnlp.org/)
 
 [IEEE Transactions on Neural Networks and Learning Systems (TNNLS)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385)
 
