@@ -14,7 +14,7 @@ Hi! This is Rui-Jie (Ridger). I am currently a Ph.D. student in Electrical and C
 
 Recent News
 ------
-
+- Jul. 2024 - **Eagle and Finch: RWKV with Matrix-Valued States and Dynamic Recurrence** accepted by Conference on Language Modeling! [[paper]](https://arxiv.org/abs/2404.05892)[[code]](https://github.com/BlinkDL/RWKV-LM)
 - Apr. 2024 - **Optically Tunable Electrical Oscillations in Oxide‐Based Memristors for Neuromorphic Computing** accepted by Advanced Materials! [[paper]](https://onlinelibrary.wiley.com/doi/full/10.1002/adma.202400904)
 - Apr. 2024 - **Tensor Decomposition Based Attention Module for Spiking Neural Networks** accepted by Knowleage-based Systems! [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0950705124004143)[[code]](https://github.com/RisingEntropy/PFA)
 - Dec. 2023 - **Recent Advances in Scalable Energy-Efficient and Trustworthy Spiking Neural networks: from Algorithms to Technology** accepted by 2024 International Conference on Acoustics, Speech and Signal Processing (ICASSP)! [[paper]](https://arxiv.org/abs/2312.01213)
