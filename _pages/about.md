@@ -16,6 +16,7 @@ My deep learning journey started with spiking neural networks. During my undergr
 
 Recent News
 ------
+- Sep. 2024 - **Four papers accepted by NeurIPS 2024 (2 posters, 1 spotlight, 1 oral)**!
 - Aug. 2024 - **Bridging the gap between artificial intelligence and natural intelligence** accepted by Nature Computational Science! [[paper]](https://www.nature.com/articles/s43588-024-00677-6)
 - Jul. 2024 - **Eagle and Finch: RWKV with Matrix-Valued States and Dynamic Recurrence** accepted by Conference on Language Modeling! [[paper]](https://arxiv.org/abs/2404.05892)[[code]](https://github.com/BlinkDL/RWKV-LM)
 - Apr. 2024 - **Optically Tunable Electrical Oscillations in Oxide‐Based Memristors for Neuromorphic Computing** accepted by Advanced Materials! [[paper]](https://onlinelibrary.wiley.com/doi/full/10.1002/adma.202400904)
@@ -43,11 +44,15 @@ IEEE Graduate Student Member
 
 **Reviewer**
 
+[2025 International Conference on Learning Representations (ICLR)](https://iclr.cc)
+
 [2024 Conference on Neural Information Processing Systems (NeurIPS)](https://neurips.cc)
 
 [2022/2024 European Conference on Computer Vision (ECCV)](https://eccv.ecva.net)
 
 [2023 Conference on Empirical Methods in Natural Language Processing (EMNLP)](https://2023.emnlp.org/)
+
+[2025 Artificial Intelligence and Statistics (AISTATS)](https://aistats.org/aistats2025/)
 
 [IEEE Transactions on Neural Networks and Learning Systems (TNNLS)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385)
 
@@ -62,6 +67,8 @@ IEEE Graduate Student Member
 [IEEE International Symposium on Circuits and Systems](https://ieeexplore.ieee.org/xpl/conhome/1000089/all-proceedings)
 
 [APL Machine Learning](https://pubs.aip.org/aip/aml)
+
+
 
 
 
