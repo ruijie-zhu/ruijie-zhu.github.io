@@ -46,6 +46,8 @@ IEEE Graduate Student Member
 
 [2025 The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)](https://cvpr.thecvf.com)
 
+[2025 International Conference on Machine Learning (ICML)](https://icml.cc)
+
 [2025 International Conference on Learning Representations (ICLR)](https://iclr.cc)
 
 [2024 Conference on Neural Information Processing Systems (NeurIPS)](https://neurips.cc)
@@ -55,6 +57,8 @@ IEEE Graduate Student Member
 [2023 Conference on Empirical Methods in Natural Language Processing (EMNLP)](https://2023.emnlp.org/)
 
 [2025 Artificial Intelligence and Statistics (AISTATS)](https://aistats.org/aistats2025/)
+
+[Transactions on Machine Learning Research](https://jmlr.org/tmlr/)
 
 [IEEE Transactions on Neural Networks and Learning Systems (TNNLS)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385)
 
