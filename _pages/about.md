@@ -16,6 +16,8 @@ My deep learning journey started with spiking neural networks. During my undergr
 
 Recent News
 ------
+- Jan. 2025 - **One paper accepted by ICLR 2025**!
+- Dec. 2024 - **One paper accepted by AAAI 2025**!
 - Sep. 2024 - **Four papers accepted by NeurIPS 2024 (2 posters, 1 spotlight, 1 oral)**!
 - Aug. 2024 - **Bridging the gap between artificial intelligence and natural intelligence** accepted by Nature Computational Science! [[paper]](https://www.nature.com/articles/s43588-024-00677-6)
 - Jul. 2024 - **Eagle and Finch: RWKV with Matrix-Valued States and Dynamic Recurrence** accepted by Conference on Language Modeling! [[paper]](https://arxiv.org/abs/2404.05892)[[code]](https://github.com/BlinkDL/RWKV-LM)
