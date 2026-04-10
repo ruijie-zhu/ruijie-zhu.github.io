@@ -4,25 +4,92 @@
     <meta charset='UTF-8'>
     <meta content='width=device-width, initial-scale=1' name='viewport'/>
     <meta name='description' content="Rui-Jie Zhu's website.">
-    <meta name='keywords' content='
-        spiking neural networks,
-        language models,
-        efficient inference,
-        neuromorphic computing,
-        deep learning,
-        computer science
-    '>
     <meta name='author' content='Rui-Jie Zhu'>
     <link href='/css/blog.css' rel='stylesheet'/>
 </head>
 <body>
+    <div class='nav'>
+        <ul class='wrap'>
+            <li><a href='/'>Home</a></li>
+            <li><a href='/publications'>Publications</a></li>
+        </ul>
+    </div>
     <div id='blog' class='wrap'>
+
+        <div>
+            <div style="width: 26%; float: right; margin-left: 2.5rem; margin-bottom: 1rem;">
+                <img src="/images/profile.jpg" width=100% style="border-radius: 4px;">
+            </div>
+            <div>
+                <h2>Rui-Jie Zhu 朱芮捷</h2>
+                <p>Ph.D. Candidate, Electrical and Computer Engineering<br>
+                University of California, Santa Cruz<br>
+                Advisor: <a href="https://ncg.ucsc.edu/jason-eshraghian-bio/">Jason K. Eshraghian</a></p>
+
+                <p>
+                    <b>Previously</b>, I worked on <s>spiking neural networks</s>, contributing to
+                    <a href="https://github.com/jeshraghian/snntorch">snnTorch</a>,
+                    <a href="https://github.com/fangwei123456/spikingjelly">SpikingJelly</a>, and building
+                    <a href="https://openreview.net/forum?id=gcf1anBL9e">SpikeGPT</a>.
+                    My research has since shifted to <b>scalable and efficient sequence modeling architectures</b>,
+                    and how to scale them.
+                    I received my Bachelor's degree from the University of Electronic Science and Technology of China (2023).
+                </p>
+
+                <p>
+                    Find me on <a href="https://github.com/ridgerchu">GitHub</a>,
+                    <a href="https://scholar.google.com/citations?user=08ITzJsAAAAJ">Google Scholar</a>,
+                    and <a href="https://twitter.com/RidgerZhu">X (Twitter)</a>.
+                </p>
+
+                <p>Email: <a style="font-family: courier;">ridger@ucsc.edu</a></p>
+            </div>
+        </div>
+
+        <div style="clear: both;"></div>
+
+        <h3>Research</h3>
+        <p>
+            I am interested in building <b>scalable and efficient sequence modeling architectures</b> as an alternative to standard Transformers.
+            On the architecture side, I have joined the development of linear attention and recurrent models that achieve Transformer-level quality at a fraction of the cost:
+        </p>
+        <ul>
+            <li>Linear attention with expressive recurrent states (I joined <a href="https://arxiv.org/abs/2305.13048">RWKV</a> and <a href="https://arxiv.org/abs/2409.07146">GSA</a>)</li>
+            <li>Matmul-free and neuromorphic language modeling (<a href="https://arxiv.org/abs/2406.02528">Matmul-free LM</a>)</li>
+            <li>Understanding and improving hybrid linear attention (<a href="https://arxiv.org/abs/2507.06457">Systematic Analysis of Hybrid Linear Attention</a>)</li>
+        </ul>
+
+        <p>
+            What I care about most is <b>touching scaling with my own hands</b>. My personal scaling trajectory covers three orders of magnitude in compute:
+        </p>
+        <ul>
+            <li>1×10<sup>19</sup> FLOPs: <a href="https://openreview.net/forum?id=gcf1anBL9e">SpikeGPT</a> (216M params, 10B tokens, 2023)</li>
+            <li>2×10<sup>21</sup> FLOPs: <a href="https://arxiv.org/abs/2406.02528">Matmul-free LM</a> (2.7B params, 100B tokens, 2024)</li>
+            <li>4.6×10<sup>23</sup> FLOPs: <b>Ouro</b> (2.6B×4, 7.7T tokens, 2025), where looping a 2.6B model trained from scratch reaches the quality of an 8B-scale industrial model. I led the entire process, from infrastructure and pre-training to mid-training and post-training.</li>
+        </ul>
+
+        <p>
+            For each of these runs, I watched every checkpoint from the very first to the last, witnessing a model go <b>from random to intelligence</b>. That is what I am really enjoying. The journey is the reward.
+        </p>
+
+        <p>Please refer to <a href="/publications">publications</a> for the full list.</p>
+
+        <h3>Talks &amp; Media</h3>
+        <ul>
+            <li><a href="https://www.youtube.com/watch?v=jwb_QNZJNyA">Scaling Latent Reasoning via Looped Language Models</a>, ASAP Seminar #48</li>
+            <li><a href="https://www.youtube.com/watch?v=pDsTcrRVNc0">LLMs Don't Need More Parameters. They Need Loops.</a>, YouTube</li>
+            <li><a href="https://b23.tv/Hv9szYq">利用Loop语言模型扩展Latent Reasoning</a>, FAI × UCSC（Bilibili）</li>
+        </ul>
+
+        <h3>Experience</h3>
+        <ul>
+            <li>Jul. 2023 – Present: Ph.D. Student, UC Santa Cruz</li>
+            <li>Sep. 2019 – Jul. 2023: B.Management, University of Electronic Science and Technology of China</li>
+        </ul>
+
         <br>
-        <br>
-        <h2>Rui-Jie Zhu 朱芮捷</h2>
-        <a href='/about'>About</a><br>
-        <a href='/publications'>Publications</a><br>
-        <div style="font-family: courier; margin-top: 8px;">ridger@ucsc.edu</div>
+        <p style="font-style: italic;">This website is adapted from <a href="https://gaotianyu.xyz">Tianyu Gao</a>'s design,
+        which is in turn adapted from <a href="http://gregorygunderson.com/">Gregory Gunderson</a>.</p>
     </div>
 </body>
 </html>
