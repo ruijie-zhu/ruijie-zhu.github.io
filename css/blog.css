@@ -156,6 +156,17 @@ h1 {
 .label:hover {
   background-color: rgba(0,0,0,0.05);
 }
+.cv-actions {
+  margin: 18px 0 24px;
+}
+.cv-actions a {
+  margin-right: 16px;
+}
+.cv-frame {
+  width: 100%;
+  height: 780px;
+  border: 1px solid rgba(0,0,0,0.16);
+}
 .news-item {
   margin-bottom: 6px;
 }
@@ -171,5 +182,8 @@ hr {
   }
   .nav {
     margin-top: 10px;
+  }
+  .cv-frame {
+    height: 560px;
   }
 }
