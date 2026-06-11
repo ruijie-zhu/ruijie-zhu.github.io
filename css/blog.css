@@ -162,6 +162,7 @@ h1 {
 .world-visitor-counter img {
   max-width: 100%;
   height: auto;
+  opacity: 0.88;
 }
 .label {
   display: inline-block;
