@@ -146,8 +146,9 @@ h1 {
 .job-market-note {
   background: #fff8db;
   border-left: 3px solid #d48806;
-  margin: 14px 0;
-  padding: 8px 10px;
+  margin: 18px 0;
+  overflow: hidden;
+  padding: 10px 12px;
 }
 .visitor-stats {
   margin-top: 18px;
