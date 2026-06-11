@@ -143,6 +143,18 @@ h1 {
   width: 100px;
   margin-bottom: -24px;
 }
+.job-market-note {
+  background: #fff8db;
+  border-left: 3px solid #d48806;
+  margin: 18px 0;
+  padding: 10px 12px;
+}
+.visitor-counter {
+  margin-top: 18px;
+}
+.visitor-counter img {
+  vertical-align: middle;
+}
 .label {
   display: inline-block;
   font-size: 11px;
