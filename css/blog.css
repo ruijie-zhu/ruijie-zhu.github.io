@@ -149,11 +149,19 @@ h1 {
   margin: 18px 0;
   padding: 10px 12px;
 }
-.visitor-counter {
+.visitor-stats {
   margin-top: 18px;
 }
-.visitor-counter img {
+.visitor-counter {
+  margin-bottom: 10px;
+}
+.visitor-counter img,
+.world-visitor-counter img {
   vertical-align: middle;
+}
+.world-visitor-counter img {
+  max-width: 100%;
+  height: auto;
 }
 .label {
   display: inline-block;
