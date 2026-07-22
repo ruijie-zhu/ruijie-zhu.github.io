@@ -166,6 +166,34 @@ h1 {
   vertical-align: -0.12em;
   width: 1em;
 }
+.research-tabs {
+  margin: 14px 0 4px;
+}
+.research-tabs button {
+  background: none;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  color: rgba(0, 0, 0, 0.65);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 13px;
+  margin-right: 8px;
+  padding: 5px 14px;
+}
+.research-tabs button:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+.research-tabs button.active {
+  background: #222;
+  border-color: #222;
+  color: #fff;
+}
+.tab-panel {
+  display: none;
+}
+.tab-panel.active {
+  display: block;
+}
 .visitor-stats {
   margin-top: 18px;
 }

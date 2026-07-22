@@ -22,9 +22,8 @@
             </div>
             <div>
                 <h2>Rui-Jie Zhu 朱芮捷</h2>
-                <p>Ph.D. Candidate, Electrical and Computer Engineering<br>
-                University of California, Santa Cruz<br>
-                Advisor: <a href="https://ncg.ucsc.edu/jason-eshraghian-bio/">Jason K. Eshraghian</a></p>
+                <p>LLM pre-training: <b>architecture</b> &amp; <b>data</b><br>
+                Ph.D. Candidate, UC Santa Cruz</p>
 
                 <p class="job-market-note">
                     <b>I am on the 2026 industry job market</b> and expect to graduate this year.
@@ -32,12 +31,13 @@
                 </p>
 
                 <p>
-                    I previously worked on spiking neural networks, contributing to
-                    <a href="https://github.com/jeshraghian/snntorch">snnTorch</a>,
-                    <a href="https://github.com/fangwei123456/spikingjelly">SpikingJelly</a>, and building
-                    <a href="https://openreview.net/forum?id=gcf1anBL9e">SpikeGPT</a>.
-                    My research has since shifted to <b>scalable and efficient sequence modeling architectures</b>,
-                    and how to scale them.
+                    I work on <b>LLM pre-training</b>, across both sides of the problem:
+                    <b>pre-training architectures</b> (looped language models, linear attention, and other
+                    efficient alternatives to standard Transformers) and <b>pre-training data</b>
+                    (synthetic data, and how data interacts with architecture and training dynamics at scale).
+                    I led the end-to-end training of <a href="https://arxiv.org/abs/2510.25741"><b>Ouro</b></a>
+                    (7.7T tokens on 1024×H100), and spent a year doing pre-training research at
+                    <a class="seed-link" href="https://seed.bytedance.com/en/"><img src="images/bytedance-seed-logo.png" alt="ByteDance Seed logo">ByteDance Seed</a>.
                 </p>
 
                 <p>
@@ -54,16 +54,7 @@
 
         <h3>Research</h3>
         <p>
-            I am interested in building <b>scalable and efficient sequence modeling architectures</b> as an alternative to standard Transformers.
-            On the architecture side, I have joined the development of linear attention and recurrent models that achieve Transformer-level quality at a fraction of the cost:
-        </p>
-        <ul>
-            <li>Linear attention with expressive recurrent states (I joined <a href="https://arxiv.org/abs/2305.13048">RWKV</a> and <a href="https://arxiv.org/abs/2409.07146">GSA</a>)</li>
-            <li>Matmul-free and neuromorphic language modeling (<a href="https://arxiv.org/abs/2406.02528">Matmul-free LM</a>)</li>
-        </ul>
-
-        <p>
-            What I care about most is <b>touching scaling with my own hands</b>. My personal scaling trajectory covers three orders of magnitude in compute, with estimated training scale under a 35% MFU assumption:
+            What I care about most is <b>touching scaling with my own hands</b>. My personal scaling trajectory covers three orders of magnitude in compute:
         </p>
         <ul class="compute-list">
             <li>1×10<sup>19</sup> FLOPs: <a href="https://openreview.net/forum?id=gcf1anBL9e">SpikeGPT</a> (216M params, 10B tokens, 2023)<br><span class="compute-meta">4×V100, ~64 V100 GPU-hours, ~0.66 days (15.9 hours)</span></li>
@@ -75,9 +66,38 @@
             For each of these runs, I watched every checkpoint from the very first to the last, witnessing a model go <b>from random to intelligence</b>. That is what I am really enjoying. The journey is the reward.
         </p>
 
+        <p>Behind these runs sit two threads of work:</p>
+
+        <div class="research-tabs">
+            <button id="tab-btn-arch" class="active" onclick="showTab('arch')">Pre-training Architecture</button>
+            <button id="tab-btn-data" onclick="showTab('data')">Pre-training Data</button>
+        </div>
+
+        <div id="tab-arch" class="tab-panel active">
+            <p>
+                I build scalable and efficient sequence modeling architectures as alternatives to standard Transformers:
+            </p>
+            <ul>
+                <li><b>Looped language models</b> that reuse parameters across depth (<a href="https://arxiv.org/abs/2510.25741">Ouro</a>), trading parameter count for iterative computation and <b>latent reasoning</b></li>
+                <li><b>Linear attention</b> with expressive recurrent states (I joined <a href="https://arxiv.org/abs/2305.13048">RWKV</a> and <a href="https://arxiv.org/abs/2409.07146">GSA</a>, and co-led <a href="https://arxiv.org/abs/2507.06457">a systematic study of hybrid linear attention</a>)</li>
+                <li><b>Matmul-free and neuromorphic</b> language modeling (<a href="https://arxiv.org/abs/2406.02528">Matmul-free LM</a>)</li>
+            </ul>
+        </div>
+
+        <div id="tab-data" class="tab-panel">
+            <p>
+                Architecture only pays off when the data feeding it is right, so I work on the data side with equal weight:
+            </p>
+            <ul>
+                <li>For <a href="https://arxiv.org/abs/2510.25741">Ouro</a>, I built a <b>data curation &amp; validation pipeline</b> and worked hands-on across <b>pre-training, long-context, and mid-training data</b>, building the 7.7T token recipe behind a 2.6B looped model that matches the quality of an 8B scale industrial model</li>
+                <li>Synthetic data for pre-training via reformulation (<a href="https://arxiv.org/abs/2502.04235">MGA</a>), where we validated two things: data rewritten by a <b>small</b> model can help train <b>larger</b> models, and reformulated synthetic data yields <b>better returns under repeated epochs</b> than repeating raw data</li>
+                <li>How data, architecture, and training dynamics interact at scale</li>
+            </ul>
+        </div>
+
         <p>
-            I was also fortunate to spend a year interning at <a class="seed-link" href="https://seed.bytedance.com/en/"><img src="images/bytedance-seed-logo.png" alt="ByteDance Seed logo">ByteDance Seed</a>, where I was deeply involved in LLM pre-training research.
-            Across looped language models, concept models, and data synthesis (MGA), I developed a hands-on understanding of how architectures, data, and training dynamics interact at scale.
+            During my year at <a class="seed-link" href="https://seed.bytedance.com/en/"><img src="images/bytedance-seed-logo.png" alt="ByteDance Seed logo">ByteDance Seed</a>,
+            this two-sided view was put into industrial practice, spanning looped language models, concept models, and pre-training data synthesis:
         </p>
         <ul>
             <li><a href="https://arxiv.org/abs/2510.25741">Scaling Latent Reasoning via Looped Language Models</a></li>
@@ -85,6 +105,14 @@
             <li><a href="https://arxiv.org/abs/2512.24617">Dynamic Large Concept Models: Latent Reasoning in an Adaptive Semantic Space</a></li>
             <li><a href="https://arxiv.org/abs/2502.04235">Reformulation for Pretraining Data Augmentation</a></li>
         </ul>
+
+        <p>
+            Earlier in my Ph.D. I worked on spiking neural networks, contributing to
+            <a href="https://github.com/jeshraghian/snntorch">snnTorch</a> and
+            <a href="https://github.com/fangwei123456/spikingjelly">SpikingJelly</a> and building
+            <a href="https://openreview.net/forum?id=gcf1anBL9e">SpikeGPT</a>.
+            That is where my obsession with efficient architectures began.
+        </p>
 
         <p>Please refer to <a href="/publications">publications</a> for the full list.</p>
 
@@ -95,10 +123,11 @@
             <li><a href="https://b23.tv/Hv9szYq">利用Loop语言模型扩展Latent Reasoning</a>, FAI × UCSC（Bilibili）</li>
         </ul>
 
-        <h3>Experience</h3>
+        <h3>Experience &amp; Education</h3>
         <ul>
-            <li>Jul. 2023 – 2026: Ph.D. Student, UC Santa Cruz</li>
-            <li>Sep. 2019 – Jul. 2023: B.S., University of Electronic Science and Technology of China</li>
+            <li>Research Intern, <a href="https://seed.bytedance.com/en/">ByteDance Seed</a>, LLM pre-training (one year)</li>
+            <li>Jul. 2023 to 2026: Ph.D. Student, UC Santa Cruz, advised by <a href="https://ncg.ucsc.edu/jason-eshraghian-bio/">Jason K. Eshraghian</a></li>
+            <li>Sep. 2019 to Jul. 2023: B.S., University of Electronic Science and Technology of China</li>
         </ul>
 
         <br>
@@ -116,5 +145,13 @@
             </p>
         </div>
     </div>
+    <script>
+        function showTab(name) {
+            ['arch', 'data'].forEach(function (t) {
+                document.getElementById('tab-' + t).classList.toggle('active', t === name);
+                document.getElementById('tab-btn-' + t).classList.toggle('active', t === name);
+            });
+        }
+    </script>
 </body>
 </html>
