@@ -5,7 +5,7 @@
     <meta content='width=device-width, initial-scale=1' name='viewport'/>
     <meta name='description' content="Rui-Jie Zhu's website.">
     <meta name='author' content='Rui-Jie Zhu'>
-    <link href='/css/blog.css' rel='stylesheet'/>
+    <link href='css/blog.css' rel='stylesheet'/>
 </head>
 <body>
     <div class='nav'>
@@ -18,7 +18,7 @@
 
         <div>
             <div style="width: 26%; float: right; margin-left: 2.5rem; margin-bottom: 1rem;">
-                <img src="/images/profile.jpg" width=100% style="border-radius: 4px;">
+                <img src="images/profile.jpg" width=100% style="border-radius: 4px;">
             </div>
             <div>
                 <h2>Rui-Jie Zhu 朱芮捷</h2>
@@ -66,9 +66,9 @@
             What I care about most is <b>touching scaling with my own hands</b>. My personal scaling trajectory covers three orders of magnitude in compute, with estimated training scale under a 35% MFU assumption:
         </p>
         <ul class="compute-list">
-            <li>1×10<sup>19</sup> FLOPs: <a href="https://openreview.net/forum?id=gcf1anBL9e">SpikeGPT</a> (216M params, 10B tokens, 2023) <span class="compute-meta">4×V100, ~64 V100 GPU-hours, ~0.66 days (15.9 hours)</span></li>
-            <li>2×10<sup>21</sup> FLOPs: <a href="https://arxiv.org/abs/2406.02528">Matmul-free LM</a> (2.7B params, 100B tokens, 2024) <span class="compute-meta">16×H100, ~1.6K H100 GPU-hours, ~4.18 days</span></li>
-            <li>4.6×10<sup>23</sup> FLOPs: <a href="https://arxiv.org/abs/2510.25741"><b>Ouro</b></a> (2.6B×4, 7.7T tokens, 2025) <span class="compute-meta">1024×H100, ~369K H100 GPU-hours, ~15.0 days</span>. Ouro is a looped language model where the same 2.6B parameters are reused across multiple passes, enabling a model trained from scratch to reach the quality of an 8B-scale industrial model at a fraction of the parameter count. I led the entire process, from infrastructure and pre-training to mid-training and post-training.</li>
+            <li>1×10<sup>19</sup> FLOPs: <a href="https://openreview.net/forum?id=gcf1anBL9e">SpikeGPT</a> (216M params, 10B tokens, 2023)<br><span class="compute-meta">4×V100, ~64 V100 GPU-hours, ~0.66 days (15.9 hours)</span></li>
+            <li>2×10<sup>21</sup> FLOPs: <a href="https://arxiv.org/abs/2406.02528">Matmul-free LM</a> (2.7B params, 100B tokens, 2024)<br><span class="compute-meta">16×H100, ~1.6K H100 GPU-hours, ~4.18 days</span></li>
+            <li>4.6×10<sup>23</sup> FLOPs: <a href="https://arxiv.org/abs/2510.25741"><b>Ouro</b></a> (2.6B×4, 7.7T tokens, 2025)<br><span class="compute-meta">1024×H100, ~369K H100 GPU-hours, ~15.0 days</span><br>Ouro is a looped language model where the same 2.6B parameters are reused across multiple passes, enabling a model trained from scratch to reach the quality of an 8B-scale industrial model at a fraction of the parameter count. I led the entire process, from infrastructure and pre-training to mid-training and post-training.</li>
         </ul>
 
         <p>
@@ -76,7 +76,7 @@
         </p>
 
         <p>
-            I was also fortunate to spend a year interning at <a class="seed-link" href="https://seed.bytedance.com/en/"><img src="/images/bytedance-seed-logo.png" alt="ByteDance Seed logo">ByteDance Seed</a>, where I was deeply involved in LLM pre-training research.
+            I was also fortunate to spend a year interning at <a class="seed-link" href="https://seed.bytedance.com/en/"><img src="images/bytedance-seed-logo.png" alt="ByteDance Seed logo">ByteDance Seed</a>, where I was deeply involved in LLM pre-training research.
             Across looped language models, concept models, and data synthesis (MGA), I developed a hands-on understanding of how architectures, data, and training dynamics interact at scale.
         </p>
         <ul>

@@ -155,19 +155,16 @@ h1 {
 }
 .compute-meta {
   color: rgba(0, 0, 0, 0.58);
-  display: block;
   font-size: 13px;
-  margin-top: 2px;
 }
 .seed-link {
-  align-items: center;
-  display: inline-flex;
-  gap: 5px;
   white-space: nowrap;
 }
 .seed-link img {
-  height: 16px;
-  width: 16px;
+  height: 1em;
+  margin-right: 4px;
+  vertical-align: -0.12em;
+  width: 1em;
 }
 .visitor-stats {
   margin-top: 18px;
