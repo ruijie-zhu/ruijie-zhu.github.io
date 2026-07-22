@@ -150,6 +150,25 @@ h1 {
   overflow: hidden;
   padding: 10px 12px;
 }
+.compute-list li {
+  margin-bottom: 8px;
+}
+.compute-meta {
+  color: rgba(0, 0, 0, 0.58);
+  display: block;
+  font-size: 13px;
+  margin-top: 2px;
+}
+.seed-link {
+  align-items: center;
+  display: inline-flex;
+  gap: 5px;
+  white-space: nowrap;
+}
+.seed-link img {
+  height: 16px;
+  width: 16px;
+}
 .visitor-stats {
   margin-top: 18px;
 }
