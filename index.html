@@ -35,7 +35,7 @@
                     efficient alternatives to standard Transformers) and <b>pre-training data</b>
                     (synthetic data, and how data interacts with architecture and training dynamics at scale).
                     I led the end-to-end training of <a href="https://arxiv.org/abs/2510.25741"><b>Ouro</b></a>
-                    (7.7T tokens on 1024×H100), and spent a year doing pre-training research at
+                    (large-scale pre-training over 7.7T tokens), and spent a year doing pre-training research at
                     <a class="seed-link" href="https://seed.bytedance.com/en/"><img src="images/bytedance-seed-logo.png" alt="ByteDance Seed logo">ByteDance Seed</a>.
                 </p>
 
@@ -58,7 +58,7 @@
         <ul class="compute-list">
             <li>1×10<sup>19</sup> FLOPs: <a href="https://openreview.net/forum?id=gcf1anBL9e">SpikeGPT</a> (216M params, 10B tokens, 2023)<br><span class="compute-meta">4×V100, ~64 V100 GPU-hours, ~0.66 days (15.9 hours)</span></li>
             <li>2×10<sup>21</sup> FLOPs: <a href="https://arxiv.org/abs/2406.02528">Matmul-free LM</a> (2.7B params, 100B tokens, 2024)<br><span class="compute-meta">16×H100, ~1.6K H100 GPU-hours, ~4.18 days</span></li>
-            <li>4.6×10<sup>23</sup> FLOPs: <a href="https://arxiv.org/abs/2510.25741"><b>Ouro</b></a> (2.6B×4, 7.7T tokens, 2025)<br><span class="compute-meta">1024×H100, ~369K H100 GPU-hours, ~15.0 days</span><br>Ouro is a looped language model where the same 2.6B parameters are reused across multiple passes, enabling a model trained from scratch to reach the quality of an 8B-scale industrial model at a fraction of the parameter count. I led the entire process, from infrastructure and pre-training to mid-training and post-training.</li>
+            <li>4.6×10<sup>23</sup> FLOPs: <a href="https://arxiv.org/abs/2510.25741"><b>Ouro</b></a> (2.6B×4, 7.7T tokens, 2025)<br><span class="compute-meta">Large-scale training run</span><br>Ouro is a looped language model where the same 2.6B parameters are reused across multiple passes, enabling a model trained from scratch to reach the quality of an 8B-scale industrial model at a fraction of the parameter count. I led the entire process, from infrastructure and pre-training to mid-training and post-training.</li>
         </ul>
 
         <p>
